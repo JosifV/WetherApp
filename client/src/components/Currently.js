@@ -22,28 +22,28 @@ const Currently = props => {
             </div>
             <div className="divCurrentGrid">
               <div className="divCurrentGridItem">
-                <p>Humidity</p>
-                {props.humidity}
+                <p>Rel Humidity</p>
+                {props.humidity + " %"}
               </div>
               <div className="divCurrentGridItem">
-                <p>Pressure</p>
-                {props.pressure}
+                <p>Air Pressure</p>
+                {props.pressure + " mbar"}
               </div>
               <div className="divCurrentGridItem">
-                <p>Wind m/s</p>
-                {props.windSpeed}
+                <p>Wind Speed</p>
+                {props.windSpeed + " m/s"}
               </div>
               <div className="divCurrentGridItem">
                 <p>Ozone</p>
-                {props.ozone}
+                {props.ozone + " DU"}
               </div>
               <div className="divCurrentGridItem">
                 <p>UV Index</p>
-                {props.uvIndex}
+                {props.uvIndex + " UV"}
               </div>
               <div className="divCurrentGridItem">
                 <p>Visibility</p>
-                {props.visibility}
+                {props.visibility + " km"}
               </div>
             </div>
             <div className="divRestOfTheDay">{props.hourly}</div>

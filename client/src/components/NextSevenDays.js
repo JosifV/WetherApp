@@ -15,8 +15,8 @@ const NextSevenDays = props => {
                   <div className="divItemNextSevenDaysIcon">
                     <h5 className="h5DateNextSDays">
                       {moment()
-                        .day(index + 2)
-                        .format("DD MMM")}
+                        .add(index, "days")
+                        .format("ddd DD MMM")}
                     </h5>
                     <WeatherIcon
                       name="darksky"
