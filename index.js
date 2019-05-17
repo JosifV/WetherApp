@@ -3,11 +3,7 @@ const app = express();
 const axios = require("axios");
 
 const PORT = process.env.PORT || 4500;
-// ovo se stavi da express servira index.html fajl ako taj isti express ne prepozna url rutu
-const path = require("path");
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-});
+
 /* 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
@@ -69,6 +65,10 @@ app.get("/forecast/:lat/:long", (req, res) => {
       console.log(err);
       res.send(err);
     });
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
 });
 
 app.listen(PORT, () => {
