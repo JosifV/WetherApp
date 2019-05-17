@@ -4,10 +4,11 @@ const axios = require("axios");
 
 const PORT = process.env.PORT || 4500;
 
+/* 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 
-/*   // ovo se stavi da express servira index.html fajl ako taj isti express ne prepozna url rutu
+  // ovo se stavi da express servira index.html fajl ako taj isti express ne prepozna url rutu
   const path = require("path");
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
