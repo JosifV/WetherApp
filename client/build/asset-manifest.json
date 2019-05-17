@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e4e1a32.chunk.css",
+    "main.js": "/static/js/main.b78cd388.chunk.js",
+    "main.js.map": "/static/js/main.b78cd388.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.a64ed4af.chunk.css": "/static/css/2.a64ed4af.chunk.css",
+    "static/js/2.1a8e914f.chunk.js": "/static/js/2.1a8e914f.chunk.js",
+    "static/js/2.1a8e914f.chunk.js.map": "/static/js/2.1a8e914f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d7a9d43ce483a7b46b7d66ae5831df3f.js": "/precache-manifest.d7a9d43ce483a7b46b7d66ae5831df3f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a64ed4af.chunk.css.map": "/static/css/2.a64ed4af.chunk.css.map",
+    "static/css/main.9e4e1a32.chunk.css.map": "/static/css/main.9e4e1a32.chunk.css.map",
+    "static/media/weather-icons.css": "/static/media/weathericons-regular-webfont.ecaf8b48.svg"
+  }
+}
