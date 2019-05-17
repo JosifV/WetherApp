@@ -1,0 +1,126 @@
+$slateBlue: #007f7f;
+$lightBlue: #00a0a0;
+$darkBlue: #004747;
+
+.divMain {
+  background: $slateBlue;
+  width: 100%;
+}
+.h1Main {
+  height: 100%;
+  padding: 1.5%;
+  margin: 0;
+  font-size: 1em;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: lighten($color: $lightBlue, $amount: 65);
+  background: $darkBlue;
+}
+.divCurrently {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.divIcon {
+  text-align: center;
+  background: $lightBlue;
+  padding: 25px !important;
+  font-size: 5em;
+  color: lighten($color: $lightBlue, $amount: 45);
+}
+.h3Temp {
+  font-size: 1em !important;
+  color: lighten($color: $lightBlue, $amount: 45);
+  margin: 0;
+}
+.divSummary {
+  background: darken($color: $lightBlue, $amount: 15);
+}
+.h3Location {
+  text-align: center;
+  font-size: 1.5em;
+  color: lighten($color: $lightBlue, $amount: 45);
+  margin: 0;
+  padding: 10px;
+}
+.h5Summary {
+  text-align: center;
+  font-size: 1.5em;
+  color: lighten($color: $lightBlue, $amount: 45);
+  margin: 0;
+  padding: 10px;
+}
+.divCurrentGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: darken($color: $lightBlue, $amount: 25);
+  color: lighten($color: $lightBlue, $amount: 45);
+}
+.divCurrentGridItem {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+  p {
+    margin: 0;
+  }
+}
+.divRestOfTheDay {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  background: darken($color: $lightBlue, $amount: 30);
+  color: lighten($color: $lightBlue, $amount: 55);
+}
+.divMainAlerts {
+  background: darken($color: $lightBlue, $amount: 15);
+  padding: 10px;
+}
+.divAlertsContainer {
+  color: lighten($color: $lightBlue, $amount: 45);
+  text-align: center;
+}
+.h3NextSevenDaysSummary {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 10px;
+  background: darken($color: $lightBlue, $amount: 25);
+  color: lighten($color: $lightBlue, $amount: 55);
+}
+.divNextSevenDays {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1%;
+  margin: 0;
+  padding: 0.5% 0 3% 0;
+}
+.divItemNextSevenDays {
+  text-align: center;
+  width: 100%;
+
+  font-size: 1.5em;
+  background: darken($color: $lightBlue, $amount: 25);
+  color: lighten($color: $lightBlue, $amount: 45);
+}
+.h5DateNextSDays {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
+}
+.divItemNextSevenDaysIcon {
+  text-align: center;
+  background: $lightBlue;
+  padding: 5px !important;
+  font-size: 30px;
+  color: lighten($color: $lightBlue, $amount: 45);
+}
+.divNextSDaysSummary {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px;
+  align-content: flex-start;
+  background: darken($color: $lightBlue, $amount: 25);
+  color: lighten($color: $lightBlue, $amount: 55);
+}
